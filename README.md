@@ -11,25 +11,25 @@ public class WhoAmI()
 	const string name = "Greg Taylor";
 	string company = "Microsoft (Surface)";
 	IEnumerable<string> hobbies = new List<string>() {
-			"Boxing",
-			"Mountain Biking",
-			"PC Gaming",
-			"Wine Tasting",
-			"Motivating and Leading People",
-			"Being up all night chasing that ONE BUG..."
+		"Boxing",
+		"Mountain Biking",
+		"PC Gaming",
+		"Wine Tasting",
+		"Motivating and Leading People",
+		"Being up all night chasing that ONE BUG..."
 	};
 	
 	public function GetCity()
 	{
-			return Redmond_WA_USA();
+		return Redmond_WA_USA();
 	}
 	
 	public function Ambitions() {
-			LearnSpanish();
-			ReadMoreBooks();
-			TravelTheWorld();
-			LearnPiano();
-			// Assume 10 more awesome ambitions here ;)
+		LearnSpanish();
+		ReadMoreBooks();
+		TravelTheWorld();
+		LearnPiano();
+		// Assume 10 more awesome ambitions here ;)
 	}
 }
  ```
