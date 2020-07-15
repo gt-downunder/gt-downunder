@@ -21,10 +21,12 @@ public class WhoAmI()
 	
 	public function GetCity()
 	{
+		// Yes, horrible function name :D
 		return Redmond_WA_USA();
 	}
 	
-	public function Ambitions() {
+	public function Ambitions() 
+	{
 		LearnSpanish();
 		ReadMoreBooks();
 		TravelTheWorld();
