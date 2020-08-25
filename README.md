@@ -22,7 +22,7 @@ public class WhoAmI()
 	public string GetCity()
 	{
 		// Yes, horrible function name :D
-		return await Redmond_WA_USA();
+		return Redmond_WA_USA();
 	}
 	
 	public void Ambitions() 
