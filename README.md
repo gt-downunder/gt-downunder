@@ -9,7 +9,7 @@
 public class WhoAmI() 
 {
 	const string name = "Greg Taylor";
-	string company = "Microsoft (Surface)";
+	string company = "Later (later.com)";
 	IEnumerable<string> hobbies = new List<string>() {
 		"Boxing",
 		"Mountain Biking",
